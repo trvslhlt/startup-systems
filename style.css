@@ -1,3 +1,17 @@
-p {
-    color: blue
+html {
+    font-family: helvetica;
+}
+
+#header {
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
 }
