@@ -1,0 +1,27 @@
+html {
+    font-family: helvetica;
+}
+
+#header {
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/*http://stackoverflow.com/questions/14694205/flipping-an-image-with-js-jquery*/
+.flipped {
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -khtml-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+}
